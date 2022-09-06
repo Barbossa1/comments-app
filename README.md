@@ -3,7 +3,7 @@
 Страница защищена авторизацией. Неавторизованному пользователю доступен только просмотр. Пользователь не может изменять/удалять чужие комментарии.
 Изначально показывается 3 комментария, остальные подгружаются (3 за один раз) по нажатию на кнопку "Show more".
 
-composer require doctrine/dbal
+<composer require doctrine/dbal>
 composer require laravel/ui 3.x
 php artisan vendor:publish --tag=laravel-pagination
 php artisan ui bootstrap --auth
